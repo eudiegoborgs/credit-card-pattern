@@ -1,7 +1,7 @@
 # from doctrine/instantiator:
 # https://github.com/doctrine/instantiator/blob/97aa11bb71ad6259a8c5a1161b4de2d6cdcc5501/.github/workflows/continuous-integration.yml
 
-name: "Versions test"
+name: "PHP Compatibilty (7.4, 8.0, 8.1, 8.2 and 8.3)"
 
 on:
   pull_request:

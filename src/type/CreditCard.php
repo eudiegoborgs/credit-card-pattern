@@ -9,7 +9,7 @@ class CreditCard
     private CVV $cvv;
     private Number $number;
 
-    public function __construct(string $holderName, string $validThru, string $cvv, string $number)
+    public function __construct($holderName, $validThru, $cvv, $number)
     {
         $this->cvv = new CVV($cvv);
         $this->number = new Number($number);
@@ -35,6 +35,11 @@ class CreditCard
     public function getValidThru(): ValidThru
     {
         return $this->validThru;
+    }
+
+    public function isExpired(): bool
+    {
+        return !$this->validThru->isExpired();
     }
 
     public function getCVV(): CVV
