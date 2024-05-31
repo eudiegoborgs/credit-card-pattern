@@ -1,0 +1,34 @@
+{
+    "name": "eudiegoborgs/credit-card-pattern",
+    "description": "PHP implementation of Credit Card Pattern",
+    "keywords": ["credit card", "pattern", "credit card pattern"],
+    "version": "0.1.0",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "classmap": [
+            "src/"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "eudiegoborgs"
+        }
+    ],
+    "scripts": {
+        "test": "phpunit -c phpunit.xml --colors=always"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "prefer-stable": true,
+    "config": {
+        "optimize-autoloader": true,
+        "sort-packages": true
+    }
+}
