@@ -1,6 +1,6 @@
-# NaturalSwagger (PHP)
+# CreditCardPattern (PHP)
 
-[![PHP Compatibilty (7.4, 8.0, 8.1, 8.2 and 8.3)](https://github.com/eudiegoborgs/credit-card-pattern/actions/workflows/versions-test.yml/badge.svg)](https://github.com/eudiegoborgs/credit-card-pattern/actions/workflows/versions-test.yml)
+[![PHP Compatibilty (ˆ7.4)](https://github.com/eudiegoborgs/credit-card-pattern/actions/workflows/versions-test.yml/badge.svg)](https://github.com/eudiegoborgs/credit-card-pattern/actions/workflows/versions-test.yml)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/eudiegoborgs/credit-card-pattern/badges/quality-score.png?b=main)](https://scrutinizer-ci.com/g/eudiegoborgs/credit-card-pattern/?branch=main)
 [![Code Intelligence Status](https://scrutinizer-ci.com/g/eudiegoborgs/credit-card-pattern/badges/code-intelligence.svg?b=main)](https://scrutinizer-ci.com/code-intelligence)
 [![Total Downloads](https://img.shields.io/packagist/dt/eudiegoborgs/credit-card-pattern.svg)](https://packagist.org/packages/diegoborgs/credit-card-pattern)
